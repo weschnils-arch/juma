@@ -681,6 +681,7 @@ button {
 
 .main-nav ul {
   display: flex;
+  align-items: center;
   gap: 24px;
   list-style: none;
   margin: 0;
@@ -709,6 +710,29 @@ button {
 
 .main-nav a:hover::after {
   width: 100%;
+}
+
+/* Kontakt CTA button in header */
+.main-nav .btn {
+  padding: 6px 20px 7px;
+  font-size: 10.35px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  transition: all 0.24s ease;
+  vertical-align: baseline;
+}
+
+.main-nav .btn::after {
+  display: none; /* Remove underline effect */
+}
+
+.main-nav .btn:hover::after {
+  display: none; /* Remove underline effect on hover */
 }
 
 .burger {
