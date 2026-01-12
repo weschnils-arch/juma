@@ -109,7 +109,7 @@ button {
   display: inline-block;
   width: 160px; /* Smaller for mobile base */
   height: 16px;
-  background-image: url('public/divider/divider_sections.webp');
+  background-image: url('divider/divider_sections.webp');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -255,7 +255,7 @@ button {
     display: inline-block;
     width: 200px; /* Medium size - not too big */
     height: 20px; /* Medium height */
-    background-image: url('public/divider/divider_sections.webp');
+    background-image: url('divider/divider_sections.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -665,7 +665,7 @@ button {
 .brand-logo-wrapper {
   height: 38px; /* Increased to avoid cutting JUMA at the top */
   width: 105px;
-  background-image: url('public/logos/Wordmark.webp?v=4');
+  background-image: url('logos/Wordmark.webp?v=4');
   background-size: 105px auto;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -2101,7 +2101,7 @@ button {
   .section-divider::before {
     width: 180px; /* Slightly smaller for tablet */
     height: 18px;
-    background-image: url('public/divider/divider_sections.webp');
+    background-image: url('divider/divider_sections.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -2438,7 +2438,7 @@ button {
   .section-divider::before {
     width: 160px; /* Smaller for mobile */
     height: 16px;
-    background-image: url('public/divider/divider_sections.webp');
+    background-image: url('divider/divider_sections.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
