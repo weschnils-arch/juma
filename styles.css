@@ -2618,6 +2618,7 @@ button {
 
   .hero-title-sub-small {
     font-size: 14px;
+    margin-bottom: 32px; /* Consistent spacing to CTA */
   }
 
   .hero-subtitle {
@@ -2629,11 +2630,13 @@ button {
   .hero-actions {
     flex-direction: column;
     align-items: stretch;
+    margin-bottom: 32px; /* Same spacing as subheadline to CTA */
   }
 
   .hero-bullets {
     flex-direction: column;
     align-items: center;
+    margin-top: 0; /* Remove top margin, rely on CTA bottom margin for spacing */
   }
 
   .hero-bullet-item {
