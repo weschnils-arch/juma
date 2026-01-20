@@ -1073,6 +1073,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
+  padding-bottom: 56px; /* Extra breathing room so bullets don't visually run into next section */
 }
 
 .hero-bullet-item {
@@ -1756,7 +1757,7 @@ button {
 }
 
 .reference-card:hover .reference-image img {
-  /* Removed transform scale to prevent gradient visibility issues */
+  transform: none; /* Keep stable to prevent gradient visibility issues */
 }
 
 .reference-content {
@@ -2082,6 +2083,10 @@ button {
   /* Hero section bottom spacing - doubled */
   .hero {
     margin-bottom: 144px; /* Doubled: 72px * 2 = 144px */
+  }
+
+  .hero-bullets {
+    padding-bottom: 64px;
   }
   
   .section-alt {
@@ -2430,6 +2435,10 @@ button {
   /* Hero section bottom spacing - doubled */
   .hero {
     margin-bottom: 96px; /* Doubled: 48px * 2 = 96px */
+  }
+
+  .hero-bullets {
+    padding-bottom: 72px;
   }
   
   .section-alt {
